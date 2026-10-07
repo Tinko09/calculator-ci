@@ -13,6 +13,6 @@ jobs:
       with:
         python-version: "3.12"
     - name: Install Pytest
-      run: pip instal pytest
+      run: pip install pytest
     - name: Run tests
       run: pytest
